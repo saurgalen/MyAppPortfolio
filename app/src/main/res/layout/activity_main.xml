@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:id="@+id/acitivty_main">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="My Android Nanodegree Apps!"
+            android:id="@+id/mainTextView"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.14" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SPOTIFY STREAMER"
+            android:id="@+id/spotifyButton"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:backgroundTint="#64b5f6" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="SUPER DUO"
+            android:id="@+id/superDuoButton"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:backgroundTint="#64b5f6" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="BuildItButton"
+            android:id="@+id/button4"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="XYZ READER"
+            android:id="@+id/xyzButton"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:backgroundTint="#64b5f6" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CAPSTONE: MY WON APP"
+            android:id="@+id/capstoneButton"
+            android:layout_gravity="center_horizontal"
+            android:clickable="true"
+            android:enabled="true"
+            android:backgroundTint="#64ffda" />
+    </LinearLayout>
+
+</RelativeLayout>
